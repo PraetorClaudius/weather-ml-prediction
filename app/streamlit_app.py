@@ -17,10 +17,10 @@ st.set_page_config(
 # Load model artifacts
 @st.cache_resource
 def load_model_artifacts():
-    model = joblib.load('../data/models/best_model.pkl')
-    scaler = joblib.load('../data/models/scaler.pkl')
-    feature_names = joblib.load('../data/models/feature_names.pkl')
-    with open('../data/models/model_metadata.json', 'r') as f:
+    model = joblib.load('data/models/best_model.pkl')
+    scaler = joblib.load('data/models/scaler.pkl')
+    feature_names = joblib.load('data/models/feature_names.pkl')
+    with open('data/models/model_metadata.json', 'r') as f:
         metadata = json.load(f)
     return model, scaler, feature_names, metadata
 
@@ -29,7 +29,7 @@ model, scaler, feature_names, metadata = load_model_artifacts()
 # Load historical data
 @st.cache_data
 def load_historical_data():
-    df = pd.read_csv('../data/processed/featured_data.csv')  # Add ../
+    df = pd.read_csv('data/processed/featured_data.csv')
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     return df
 
@@ -308,7 +308,7 @@ with tab3:
     
     with col1:
         try:
-            st.image('../data/actual_vs_predicted.png', 
+            st.image('/data/actual_vs_predicted.png', 
                     caption='Actual vs Predicted Temperature',
                     use_column_width=True)
         except:
@@ -316,7 +316,7 @@ with tab3:
     
     with col2:
         try:
-            st.image('../data/error_distribution.png',
+            st.image('/data/error_distribution.png',
                     caption='Prediction Error Distribution',
                     use_column_width=True)
         except:
@@ -327,7 +327,7 @@ with tab3:
     # Model comparison
     st.subheader("Model Comparison")
     try:
-        st.image('../data/model_comparison.png',
+        st.image('/data/model_comparison.png',
                 caption='Comparison of Different ML Models',
                 use_column_width=True)
     except:
@@ -337,7 +337,7 @@ with tab3:
     st.markdown("---")
     st.subheader("Feature Importance")
     try:
-        st.image('../data/feature_importance.png',
+        st.image('/data/feature_importance.png',
                 caption='Top Important Features for Prediction',
                 use_column_width=True)
     except:

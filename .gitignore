@@ -14,19 +14,16 @@ build/
 .ipynb_checkpoints/
 *.ipynb
 
-# Data (don't upload large files)
-data/raw/*.json
-*.csv
+# Data (don't upload large raw files)
+data/downloaded/*.json
 
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Keep model files but ignore large datasets
+# IMPORTANT: We need these files for deployment!
+# Models (required for app)
 !data/models/*.pkl
 !data/models/*.json
+
+# Processed data (required for app)
+!data/processed/featured_data.csv
+
+# Images (required for app)
 !data/*.png
