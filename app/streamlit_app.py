@@ -422,7 +422,7 @@ with tab4:
     
     Telematics Engineer building data science and ML engineering skills.
     
-    - [GitHub](https://github.com/PraetorClaudius/weather-ml-prediction)
+    - [GitHub](https://github.com/PraetorClaudius)
     - [LinkedIn](https://www.linkedin.com/in/eduardo-arriaga-230156295/)
     
     ### Project Repository
