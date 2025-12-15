@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:47:46.915951",
+      "temperature_celsius": 19.88,
+      "feels_like": 18.68,
+      "humidity_percent": 29,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 2.02,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:47:46.915951",
+      "temperature_celsius": 22.75,
+      "feels_like": 21.84,
+      "humidity_percent": 29,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 3.09,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 20,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:47:46.915951",
+      "temperature_celsius": 25.87,
+      "feels_like": 25.06,
+      "humidity_percent": 21,
+      "pressure_hpa": 1015,
+      "wind_speed_mps": 1.54,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:47:46.915951",
+      "temperature_celsius": 30.49,
+      "feels_like": 29.14,
+      "humidity_percent": 29,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 10.73,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:47:46.915951",
+      "temperature_celsius": 27.76,
+      "feels_like": 31.79,
+      "humidity_percent": 82,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 1.79,
+      "weather_description": "light rain",
+      "cloudiness_percent": 100,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

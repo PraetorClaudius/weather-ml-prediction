@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-17T14:47:28.611686",
+      "temperature_celsius": 7.39,
+      "feels_like": 7.39,
+      "humidity_percent": 76,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 0,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-17T14:47:28.611686",
+      "temperature_celsius": 10.96,
+      "feels_like": 9.52,
+      "humidity_percent": 54,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 2.06,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-17T14:47:28.611686",
+      "temperature_celsius": 10.87,
+      "feels_like": 10.15,
+      "humidity_percent": 82,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 1.54,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-17T14:47:28.611686",
+      "temperature_celsius": 23.65,
+      "feels_like": 23.74,
+      "humidity_percent": 64,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 1.52,
+      "weather_description": "broken clouds",
+      "cloudiness_percent": 60,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-17T14:47:28.611686",
+      "temperature_celsius": 24.96,
+      "feels_like": 25.68,
+      "humidity_percent": 83,
+      "pressure_hpa": 1015,
+      "wind_speed_mps": 0,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

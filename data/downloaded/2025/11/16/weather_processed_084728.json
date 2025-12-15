@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-16T08:47:28.574486",
+      "temperature_celsius": 8.07,
+      "feels_like": 8.07,
+      "humidity_percent": 53,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 0.78,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-16T08:47:28.574486",
+      "temperature_celsius": 11,
+      "feels_like": 9.12,
+      "humidity_percent": 37,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 1.11,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 4,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-16T08:47:28.574486",
+      "temperature_celsius": 12.87,
+      "feels_like": 12.35,
+      "humidity_percent": 82,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 0,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 20,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-16T08:47:28.574486",
+      "temperature_celsius": 20.31,
+      "feels_like": 20.12,
+      "humidity_percent": 66,
+      "pressure_hpa": 1012,
+      "wind_speed_mps": 1.1,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-16T08:47:28.574486",
+      "temperature_celsius": 19.96,
+      "feels_like": 20.47,
+      "humidity_percent": 94,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 0,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 20,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

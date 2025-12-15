@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-18T08:47:28.627097",
+      "temperature_celsius": 7.39,
+      "feels_like": 7.39,
+      "humidity_percent": 93,
+      "pressure_hpa": 1020,
+      "wind_speed_mps": 0,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-18T08:47:28.627097",
+      "temperature_celsius": 13.86,
+      "feels_like": 12.71,
+      "humidity_percent": 54,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 2.06,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 20,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-18T08:47:28.627097",
+      "temperature_celsius": 13.6,
+      "feels_like": 12.43,
+      "humidity_percent": 54,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 0.11,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 2,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-18T08:47:28.627097",
+      "temperature_celsius": 19.76,
+      "feels_like": 18.37,
+      "humidity_percent": 22,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 0.55,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 44,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-18T08:47:28.627097",
+      "temperature_celsius": 19.96,
+      "feels_like": 20.62,
+      "humidity_percent": 100,
+      "pressure_hpa": 1015,
+      "wind_speed_mps": 0,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

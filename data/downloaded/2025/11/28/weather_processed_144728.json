@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-28T14:47:28.561344",
+      "temperature_celsius": 6.39,
+      "feels_like": 5.48,
+      "humidity_percent": 87,
+      "pressure_hpa": 1025,
+      "wind_speed_mps": 1.54,
+      "weather_description": "haze",
+      "cloudiness_percent": 20,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-28T14:47:28.561344",
+      "temperature_celsius": 11.64,
+      "feels_like": 10.58,
+      "humidity_percent": 66,
+      "pressure_hpa": 1025,
+      "wind_speed_mps": 2.57,
+      "weather_description": "broken clouds",
+      "cloudiness_percent": 75,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-28T14:47:28.561344",
+      "temperature_celsius": 16.81,
+      "feels_like": 16.11,
+      "humidity_percent": 60,
+      "pressure_hpa": 1022,
+      "wind_speed_mps": 1.76,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 25,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-28T14:47:28.561344",
+      "temperature_celsius": 16.37,
+      "feels_like": 16.52,
+      "humidity_percent": 94,
+      "pressure_hpa": 1024,
+      "wind_speed_mps": 1.52,
+      "weather_description": "overcast clouds",
+      "cloudiness_percent": 98,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-28T14:47:28.561344",
+      "temperature_celsius": 24.98,
+      "feels_like": 25.36,
+      "humidity_percent": 70,
+      "pressure_hpa": 1021,
+      "wind_speed_mps": 3.09,
+      "weather_description": "haze",
+      "cloudiness_percent": 75,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

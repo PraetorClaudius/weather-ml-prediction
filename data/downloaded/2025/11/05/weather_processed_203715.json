@@ -1,0 +1,79 @@
+{
+  "processing_timestamp": "2025-11-05T20:37:15.596125",
+  "total_cities": 5,
+  "avg_temperature": 24.216,
+  "max_temperature": 28.31,
+  "min_temperature": 19.39,
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:24:17.477124",
+      "temperature_celsius": 19.39,
+      "feels_like": 18.06,
+      "humidity_percent": 26,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 1.54,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 40,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:24:17.477124",
+      "temperature_celsius": 20.53,
+      "feels_like": 19.47,
+      "humidity_percent": 32,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 4.12,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:24:17.477124",
+      "temperature_celsius": 25.87,
+      "feels_like": 25.06,
+      "humidity_percent": 21,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 1.54,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:24:17.477124",
+      "temperature_celsius": 26.98,
+      "feels_like": 27.58,
+      "humidity_percent": 53,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 2.63,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-05T20:24:17.477124",
+      "temperature_celsius": 28.31,
+      "feels_like": 33.06,
+      "humidity_percent": 81,
+      "pressure_hpa": 1016,
+      "wind_speed_mps": 0,
+      "weather_description": "light rain",
+      "cloudiness_percent": 100,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

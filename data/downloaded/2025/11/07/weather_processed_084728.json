@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-07T08:47:28.595850",
+      "temperature_celsius": 5.05,
+      "feels_like": 5.05,
+      "humidity_percent": 87,
+      "pressure_hpa": 1020,
+      "wind_speed_mps": 0.77,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 4,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-07T08:47:28.595850",
+      "temperature_celsius": 9.96,
+      "feels_like": 9.1,
+      "humidity_percent": 62,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 2.06,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-07T08:47:28.595850",
+      "temperature_celsius": 8.87,
+      "feels_like": 8.32,
+      "humidity_percent": 66,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 1.54,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-07T08:47:28.595850",
+      "temperature_celsius": 19.2,
+      "feels_like": 18.64,
+      "humidity_percent": 56,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 1.54,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-07T08:47:28.595850",
+      "temperature_celsius": 23.92,
+      "feels_like": 24.82,
+      "humidity_percent": 94,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 2.06,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 7,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

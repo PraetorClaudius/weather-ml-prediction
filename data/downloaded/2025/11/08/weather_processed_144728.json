@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-11-08T14:47:28.598705",
+      "temperature_celsius": 5.39,
+      "feels_like": 5.39,
+      "humidity_percent": 93,
+      "pressure_hpa": 1018,
+      "wind_speed_mps": 0,
+      "weather_description": "mist",
+      "cloudiness_percent": 100,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-11-08T14:47:28.598705",
+      "temperature_celsius": 9.96,
+      "feels_like": 8.73,
+      "humidity_percent": 66,
+      "pressure_hpa": 1017,
+      "wind_speed_mps": 2.57,
+      "weather_description": "broken clouds",
+      "cloudiness_percent": 75,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-11-08T14:47:28.598705",
+      "temperature_celsius": 11.87,
+      "feels_like": 11.38,
+      "humidity_percent": 87,
+      "pressure_hpa": 1018,
+      "wind_speed_mps": 0,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 40,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-11-08T14:47:28.598705",
+      "temperature_celsius": 26.43,
+      "feels_like": 26.43,
+      "humidity_percent": 36,
+      "pressure_hpa": 1014,
+      "wind_speed_mps": 0.76,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-11-08T14:47:28.598705",
+      "temperature_celsius": 28.31,
+      "feels_like": 33.6,
+      "humidity_percent": 84,
+      "pressure_hpa": 1013,
+      "wind_speed_mps": 0,
+      "weather_description": "light rain",
+      "cloudiness_percent": 20,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}
