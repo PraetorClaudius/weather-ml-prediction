@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-12-23T14:47:28.595513",
+      "temperature_celsius": 6.39,
+      "feels_like": 5.48,
+      "humidity_percent": 100,
+      "pressure_hpa": 1024,
+      "wind_speed_mps": 1.54,
+      "weather_description": "fog",
+      "cloudiness_percent": 100,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-12-23T14:47:28.595513",
+      "temperature_celsius": 10.53,
+      "feels_like": 9.75,
+      "humidity_percent": 81,
+      "pressure_hpa": 1024,
+      "wind_speed_mps": 3.09,
+      "weather_description": "overcast clouds",
+      "cloudiness_percent": 100,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-12-23T14:47:28.595513",
+      "temperature_celsius": 14.87,
+      "feels_like": 14.29,
+      "humidity_percent": 72,
+      "pressure_hpa": 1021,
+      "wind_speed_mps": 0,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 40,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-12-23T14:47:28.595513",
+      "temperature_celsius": 16.37,
+      "feels_like": 16.28,
+      "humidity_percent": 85,
+      "pressure_hpa": 1023,
+      "wind_speed_mps": 0.73,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 19,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-12-23T14:47:28.595513",
+      "temperature_celsius": 27.2,
+      "feels_like": 29.98,
+      "humidity_percent": 78,
+      "pressure_hpa": 1020,
+      "wind_speed_mps": 2.06,
+      "weather_description": "moderate rain",
+      "cloudiness_percent": 75,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

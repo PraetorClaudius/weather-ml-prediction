@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "city": "Toluca",
+      "country": "MX",
+      "timestamp": "2025-12-20T02:47:28.590263",
+      "temperature_celsius": 9.39,
+      "feels_like": 9.39,
+      "humidity_percent": 57,
+      "pressure_hpa": 1024,
+      "wind_speed_mps": 1.03,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 19.2883,
+      "longitude": -99.6672
+    },
+    {
+      "city": "Mexico City",
+      "country": "MX",
+      "timestamp": "2025-12-20T02:47:28.590263",
+      "temperature_celsius": 16.64,
+      "feels_like": 15.61,
+      "humidity_percent": 48,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 5.14,
+      "weather_description": "few clouds",
+      "cloudiness_percent": 20,
+      "latitude": 19.4285,
+      "longitude": -99.1277
+    },
+    {
+      "city": "Guadalajara",
+      "country": "MX",
+      "timestamp": "2025-12-20T02:47:28.590263",
+      "temperature_celsius": 14.87,
+      "feels_like": 13.74,
+      "humidity_percent": 51,
+      "pressure_hpa": 1018,
+      "wind_speed_mps": 2.06,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 20.6667,
+      "longitude": -103.3333
+    },
+    {
+      "city": "Monterrey",
+      "country": "MX",
+      "timestamp": "2025-12-20T02:47:28.590263",
+      "temperature_celsius": 17.54,
+      "feels_like": 16.97,
+      "humidity_percent": 62,
+      "pressure_hpa": 1020,
+      "wind_speed_mps": 2.23,
+      "weather_description": "clear sky",
+      "cloudiness_percent": 0,
+      "latitude": 25.6667,
+      "longitude": -100.3167
+    },
+    {
+      "city": "Canc\u00fan",
+      "country": "MX",
+      "timestamp": "2025-12-20T02:47:28.590263",
+      "temperature_celsius": 24.42,
+      "feels_like": 25.35,
+      "humidity_percent": 93,
+      "pressure_hpa": 1019,
+      "wind_speed_mps": 0,
+      "weather_description": "scattered clouds",
+      "cloudiness_percent": 40,
+      "latitude": 21.1743,
+      "longitude": -86.8466
+    }
+  ]
+}

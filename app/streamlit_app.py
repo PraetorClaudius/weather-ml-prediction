@@ -6,6 +6,7 @@ import json
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 import plotly.express as px
+from pathlib import Path
 
 # Page config
 st.set_page_config(
@@ -14,13 +15,26 @@ st.set_page_config(
     layout="wide"
 )
 
+# Get paths relative to project root (works on both local and Streamlit Cloud)
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+st.write("Project root:", PROJECT_ROOT)
+st.write("Model exists:", (PROJECT_ROOT / "data/models/best_model.pkl").exists())
+
 # Load model artifacts
 @st.cache_resource
 def load_model_artifacts():
-    model = joblib.load('data/models/best_model.pkl')
-    scaler = joblib.load('data/models/scaler.pkl')
-    feature_names = joblib.load('data/models/feature_names.pkl')
-    with open('data/models/model_metadata.json', 'r') as f:
+    model_path = PROJECT_ROOT / 'data' / 'models' / 'best_model.pkl'
+    scaler_path = PROJECT_ROOT / 'data' / 'models' / 'scaler.pkl'
+    features_path = PROJECT_ROOT / 'data' / 'models' / 'feature_names.pkl'
+    metadata_path = PROJECT_ROOT / 'data' / 'models' / 'model_metadata.json'
+    
+    model = joblib.load(str(model_path))
+    scaler = joblib.load(str(scaler_path))
+    feature_names = joblib.load(str(features_path))
+    with open(metadata_path, 'r') as f:
         metadata = json.load(f)
     return model, scaler, feature_names, metadata
 
@@ -29,7 +43,8 @@ model, scaler, feature_names, metadata = load_model_artifacts()
 # Load historical data
 @st.cache_data
 def load_historical_data():
-    df = pd.read_csv('data/processed/featured_data.csv')
+    data_path = PROJECT_ROOT / 'data' / 'processed' / 'featured_data.csv'
+    df = pd.read_csv(str(data_path))
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     return df
 
@@ -308,7 +323,8 @@ with tab3:
     
     with col1:
         try:
-            st.image('/data/actual_vs_predicted.png', 
+            img_path = str(PROJECT_ROOT / 'data' / 'actual_vs_predicted.png')
+            st.image(img_path, 
                     caption='Actual vs Predicted Temperature',
                     use_column_width=True)
         except:
@@ -316,7 +332,8 @@ with tab3:
     
     with col2:
         try:
-            st.image('/data/error_distribution.png',
+            img_path = str(PROJECT_ROOT / 'data' / 'error_distribution.png')
+            st.image(img_path,
                     caption='Prediction Error Distribution',
                     use_column_width=True)
         except:
@@ -327,7 +344,8 @@ with tab3:
     # Model comparison
     st.subheader("Model Comparison")
     try:
-        st.image('/data/model_comparison.png',
+        img_path = str(PROJECT_ROOT / 'data' / 'model_comparison.png')
+        st.image(img_path,
                 caption='Comparison of Different ML Models',
                 use_column_width=True)
     except:
@@ -337,7 +355,8 @@ with tab3:
     st.markdown("---")
     st.subheader("Feature Importance")
     try:
-        st.image('/data/feature_importance.png',
+        img_path = str(PROJECT_ROOT / 'data' / 'feature_importance.png')
+        st.image(img_path,
                 caption='Top Important Features for Prediction',
                 use_column_width=True)
     except:
@@ -409,12 +428,12 @@ with tab4:
     
     ### Future Improvements
     
-    - 📊 Add more cities and countries
-    - 🤖 Implement deep learning models (LSTM for time-series)
-    - 📧 Email alerts for extreme temperature changes
-    - 📱 Mobile app version
-    - 🌍 Multi-day forecasts (3-7 days ahead)
-    - 📈 Incorporate additional weather variables
+    -  Add more cities and countries
+    -  Implement deep learning models (LSTM for time-series)
+    -  Email alerts for extreme temperature changes
+    -  Mobile app version
+    -  Multi-day forecasts (3-7 days ahead)
+    -  Incorporate additional weather variables
     
     ### Author
     

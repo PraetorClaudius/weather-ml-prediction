@@ -1,5 +1,5 @@
 {
-  "model_type": "DecisionTreeRegressor",
+  "model_type": "Lasso",
   "features": [
     "temperature_celsius",
     "feels_like",
@@ -28,9 +28,9 @@
     "city_Monterrey",
     "city_Toluca"
   ],
-  "train_size": 412,
-  "test_size": 103,
-  "test_mae": 3.0961812297734626,
-  "test_r2": 0.48058881841562595,
-  "date_trained": "2025-12-12T16:04:02.262055"
+  "train_size": 976,
+  "test_size": 244,
+  "test_mae": 2.189571032277787,
+  "test_r2": 0.7465751813855221,
+  "date_trained": "2026-01-06T15:20:56.587484"
 }
