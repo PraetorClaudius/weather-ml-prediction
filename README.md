@@ -7,7 +7,7 @@ An end-to-end machine learning system that predicts tomorrow's temperature for M
 
 **Try it now:** [Weather Temperature Predictor](https://weather-ml-prediction-shidq7bz8ukz5rx2zqoxax.streamlit.app)
 
-## 🎯 Project Highlights
+## Project Highlights
 
  **Automated Data Pipeline** - AWS Lambda collects weather data every 6 hours  
  **Real-World Data** - 550+ records from 5 Mexican cities over 3+ weeks  
