@@ -295,9 +295,10 @@ Telematics Engineer transitioning to Data Science & ML Engineering
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenWeatherMap** for providing free API access
 - **Streamlit** for free hosting and excellent framework
 - **AWS Free Tier** for serverless infrastructure
 - **scikit-learn** community for comprehensive ML tools
+
