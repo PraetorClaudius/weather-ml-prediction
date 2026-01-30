@@ -285,9 +285,9 @@ The app is deployed on Streamlit Cloud. To deploy your own:
 
 Telematics Engineer transitioning to Data Science & ML Engineering
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/eduardo-arriaga-230156295/) ← Update this
+- 🔗 [LinkedIn](https://www.linkedin.com/in/eduardo-arriaga-230156295/)
 - 💻 [GitHub](https://github.com/PraetorClaudius)
-- 📧 [Email](earriaga0226@gmail.com) ← Update this
+- 📧 [Email](earriaga0226@gmail.com)
 
 ### Other Projects
 
@@ -301,4 +301,5 @@ Telematics Engineer transitioning to Data Science & ML Engineering
 - **Streamlit** for free hosting and excellent framework
 - **AWS Free Tier** for serverless infrastructure
 - **scikit-learn** community for comprehensive ML tools
+
 
