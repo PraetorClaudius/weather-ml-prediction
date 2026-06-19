@@ -56,4 +56,4 @@ for idx, file in enumerate(files, 1):
     except Exception as e:
         print(f"  Error: {e}")
 
-print(f"\nDone! Processed {len(files)} files")
+print(f"\nProcessed {len(files)} files")

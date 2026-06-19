@@ -179,7 +179,7 @@ with tab1:
         prediction = model.predict(X_input_scaled)[0]
         
         # Display result
-        st.success("✅ Prediction Complete!")
+        st.success("Prediction Complete!")
         
         # Big prediction display
         st.markdown("---")
@@ -364,7 +364,7 @@ with tab3:
 
 # TAB 4: About
 with tab4:
-    st.header("ℹ️ About This Project")
+    st.header("About This Project")
     
     st.markdown("""
     ## Weather Temperature Prediction System
@@ -451,7 +451,7 @@ with tab4:
     
     ---
     
-    *Built as part of a data science portfolio to demonstrate end-to-end ML project skills.*
+    *Built as part of a portfolio to demonstrate end-to-end ML project skills.*
     """.format(metadata['test_mae'], metadata['test_r2'], metadata['test_mae']))
 
 # Footer
